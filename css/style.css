@@ -1,0 +1,43 @@
+/* Typography */
+
+h1,
+h4,
+h3 {
+	font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+h2 {
+	font-family: "Quicksand", sans-serif;
+	font-weight: lighter;
+	color: rgb(207, 203, 203);
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: 768px) {
+	.container {
+		text-align: center;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 769px) {
+	#name {
+		text-align: right;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#name {
+		text-align: right;
+	}
+}
